@@ -2,6 +2,7 @@
 BUTTONS
 ************************/
 
+
 $(".buttons").hide().show("slow");
 
 $(".story").hide();
@@ -47,9 +48,9 @@ PHOTO ALBUM
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
-$overlay.append($image);
-$overlay.append($caption);
-$("body").append($overlay);
+$overlay.append = $('img');
+$overlay.append = $('caption');
+$("body").append = $('overlay');
 
 $("#photo_ul a").click(function (event){
     event.preventDefault();
